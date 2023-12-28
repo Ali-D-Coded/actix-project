@@ -1,0 +1,16 @@
+[package]
+name = "axum-project"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-rt = "2.9.0"
+actix-web = "4.4.1"
+chrono = { version = "0.4.31", features = ["serde"] }
+env_logger = "0.10.1"
+full = "0.1.0"
+serde = { version = "1.0.193", features = ["alloc", "derive", "serde_derive"] }
+serde_json = { version = "1.0.108", features = ["alloc", "indexmap"] }
+uuid = { version = "1.6.1", features = ["serde", "v4"] }
